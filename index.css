@@ -1,0 +1,57 @@
+body {
+    background-color:#86FAD7;
+    color:#008761;
+}
+
+footer, header {
+    width: 100%;
+    height: 2.5em;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee > img {
+    height: 2em;
+    width: 2em;
+}
+
+.marquee {
+    display: block;  
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 5s linear infinite;
+}
+  
+@keyframes marquee {
+    0% { left: 100%; }
+    100% { left: 0%; }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5em;
+}
+
+.about-me {
+    border-style:groove;
+    border-radius: 2%;
+    box-shadow: 1em;
+    padding: 1%;
+    background-color:#00C78D;
+    color: #FDDCBB;
+    border-color: #FDDCBB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mah-face {
+    margin: 1em 1em 0em 0em;
+}
+
+
+h1, p {
+    margin: auto;
+    max-width: 30em;
+}
