@@ -55,3 +55,12 @@ h1, p {
     margin: auto;
     max-width: 30em;
 }
+
+@media (max-width:450px) {
+    .about-me {
+        max-width: 100%;
+    }
+    #mah-face {
+        max-width: 100%;
+    }
+}
